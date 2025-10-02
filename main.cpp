@@ -1,3 +1,5 @@
+//Below this line everything was created by myself 
+
 # include <iostream>
 # include <string>
 
