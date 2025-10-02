@@ -1,8 +1,44 @@
-# Ignore everything
-*
+# =====================================
+# This .gitignore was created with the help of AI
+# Purpose:
+#   - To make sharing my C++ learning cleaner and easier
+#   - Hide executables, build files, system files, and editor configs
+#   - Keep only source code (.cpp, .h) visible on GitHub
+# =====================================
 
-# Keep only main.cpp
-!main.cpp
+# Ignore macOS system files
+.DS_Store
 
-# Also keep this .gitignore itself
+# Ignore build artifacts
+*.out
+*.exe
+*.o
+*.obj
+*.so
+*.dll
+*.a
+*.lib
+
+# Ignore executables (like "main")
+main
+
+# Ignore debug symbols and profiler output
+*.dSYM/
+*.stackdump
+*.prof
+*.gcda
+*.gcno
+*.gcov
+
+# Ignore VSCode config (local only, not needed on GitHub)
+.vscode/
+
+# =====================================
+# What to keep
+# =====================================
+# Keep all source and header files
+!*.cpp
+!*.h
+
+# Keep .gitignore itself
 !.gitignore
